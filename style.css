@@ -18,8 +18,8 @@ body{
     overflow: hidden;
     background-color: transparent;
     backdrop-filter: blur(10px);
-    border: 2px solid rgba(230, 12, 12, 0.5);
-    box-shadow: 10px 20px 20px rgba(33, 33, 36, 0.267);
+    border: 2px solid rgba(90, 69, 69, 0.2);
+    box-shadow: 10px 10px 10px rgba(33, 33, 36, 0.267);
     border-radius: 20px;
 }
 .logo{
@@ -69,12 +69,157 @@ body{
     width: 80%;
 }
 .rightside{
+    /* background-color: aquamarine; */
     width: 50%;
     display: flex;
     flex-direction: column;
+    row-gap: 30px;
     align-items: start;
     justify-content: center;
 }
+.rightside div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 30%;
+    height: 30px;
+  background-color: #149f39;
+}
+.rightside h1{
+    width: 70%;
+    font-size: 4rem;
+}
+.rightside p{
+    font-size: 1.3rem;
+    width: 60%;
+}
+.rightside button{
+    font-size: 1rem;
+  background-color: #e49c21;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 25%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+/* ~~~~~~~~~~~~~~~~~ Cards    ~~~~~~~~~~~~~~~~~~~~~~~~ */
+.cards{
+   display: flex;
+  gap: 30px;
+   padding: 0px 90px;
+}
+.card{
+ display: flex;
+ 
+}
+
+/* ~~~~~~~~~~~~~~~~~ Menu ~~~~~~~~~~~~~~~~~~~~~~~ */
+.menu{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.menu div{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 10%;
+    height: 30px;
+  background-color: #149f39;
+}
+
+.menu h2{
+    font-size: 2rem;
+}
 
 
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    gap: 10px;
+    margin-bottom: 100px;
+    padding: 0px 90px ;
 
+}
+    
+.div1 {
+    background:  url(media/thai-food-spicy-fresh-oyster-salad\ \(1\).jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: span 2 / span 2;
+    grid-row: span 5 / span 5;
+   
+    height: 500px;
+}
+
+.div2 {
+    
+    background:  url(media/sandwich-with-egg-served-with-lettuce.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: span 5 / span 5;
+    grid-column-start: 3;
+}
+
+.div3 {
+    
+    background:  url(media/fried-vegetables-with-sauce-pan.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: span 2 / span 2;
+    grid-column-start: 4;
+}
+
+.div4 {
+    background:  url(media/44.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: span 5 / span 5;
+    grid-column-start: 4;
+    grid-row-start: 3;
+}
+
+.div5 {
+    
+    background:  url(media/55.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: span 2 / span 2;
+    grid-row-start: 6;
+}
+
+.div6 {
+    
+    background:  url(media/66.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: span 2 / span 2;
+    grid-row-start: 6;
+}
+
+.div7 {
+    
+    background:  url(media/77.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: span 2 / span 2;
+    grid-row-start: 6;
+}
+        
