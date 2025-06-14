@@ -9,6 +9,46 @@ body{
 }
 
 /* ~~~~~~~~~~~~~~~~~~~Header ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.sidebar{
+    
+    z-index: 1;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    width: 30%;
+    backdrop-filter: blur(10px);
+
+}
+.sidebar a{
+    /* align-self: center; */
+    /* width: 100%; */
+    text-decoration: none;
+}
+.xmark{
+
+    width: 30px;
+    right: 70%;
+    position: absolute;
+    top: 0px;
+}
+/* .sidebar > .links{
+    width: 100%;
+    height: ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+} */
+
+
 .header{
     /* background-color: rgb(233, 228, 189); */
     display: flex;
