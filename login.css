@@ -10,7 +10,7 @@
   align-items: center;
   flex-direction: column;
   height: 80vh;
-}
+} 
 .box{
     border-radius: 10px;
  backdrop-filter: blur(10px);
