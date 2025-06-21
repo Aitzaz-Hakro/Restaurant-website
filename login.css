@@ -1,9 +1,15 @@
 
-.Maincontainer{
+body{
     background: url(media/female-receptionist-elegant-suit-work-hours.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+}
+.header{
+    background-color: rgb(255, 255, 255) !important;
+}
+.Maincontainer{
   width: 100%;
   display: flex;
   justify-content: center;
