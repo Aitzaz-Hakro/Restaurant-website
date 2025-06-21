@@ -7,6 +7,8 @@ body{
     /* font-family: cursive ; */
     line-height: 1.4;
     /* background-color: rgb(45, 194, 194); */
+    scroll-behavior: smooth;
+    
 }
 
 /* ~~~~~~~~~~~~~~~~~~~Header ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -25,8 +27,8 @@ body{
     gap: 30px;
     width: 30%;
     backdrop-filter: blur(10px);
-   
-
+    
+    
 }
 .xmark{
     cursor: pointer ;
@@ -43,10 +45,10 @@ body{
     display: flex;
     flex-direction: column;
     gap: 10px;
-} */
-
-
-.header{
+    } */
+    
+    
+    .header{
     /* background-color: rgb(233, 228, 189); */
     display: flex;
     justify-content: space-between;

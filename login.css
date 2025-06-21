@@ -4,6 +4,8 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
+    scroll-behavior: smooth;
 
 }
 .header{
@@ -32,18 +34,24 @@ body{
    cursor: pointer;
     color: blue;
     margin-top: -15px;
+    display: flex;
     float: right;
     /* font-family: cursive; */
-    
+     
 }
 .box .email{
-    padding: 5px 40px;
+    padding: 5px 10px;
     border: none;
+    width: 100%;
+    margin: 0px 10px;
+    border-radius: 10px;
     
 }
 .box .paswd{
-    padding: 5px 40px;
-    border: none;
+    width: 100%;
+    padding: 5px 10px;
+    border: none; 
+    border-radius: 10px;
 
 }
 .box button{
